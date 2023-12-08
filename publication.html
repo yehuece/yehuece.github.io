@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+ul {
+    line-height: 45px;
+}
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Ye Hu @ University of Miami ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+   
+
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="#"><img border="0" width="100" src="logo.png"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="index.html">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="publication.html">Publications</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="teaching.html">Teaching</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="professional.html">Professional Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="group.html">Group Members</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        <br>
+        <br>
+        <br>
+
+        <section id="publications">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+        
+                    <i style="display:none;" id="tab-2">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-2-content&#39;).toggle();">Publications  <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i>
+                    <div style="" id="tab-2-content">
+                    <hr class="star-primary">
+                   
+        
+
+                    <!-- <h2>Book Chapters:</h2>
+                    </h2> 
+                    <ul id="custom-bullets">
+                        <li>Z. Yang, M. Chen, W. Saad, M. Shikh-Bahaei, H. V. Poor, and S. Cui, “Federated Learning in 6G Mobile Wireless Networks”, in 6G Mobile Wireless Networks, (eds. Y. Wu, S. Singh, T. Taleb, A. Roy, H. S. Dhillon, M. R. Kanagarathinam, A. De), Springer, Cham, Switzerland, 2021.
+                        <li>N. Shlezinger, M. Chen, Y. Eldar, H. V. Poor, and S. Cui, Quantized Federated Learning, in Machine Learning and Wireless Communications, (eds. A. Goldsmith, D. Guduz, H. V. Poor, and Y. Eldar), Cambridge University Press, Cambridge, UK, 2020.
+                        <li>M. Chen, W. Saad, and C. Yin, Cache-Enabled UAVs in Wireless Networks, in Wireless Edge Caching: Modelling, Analysis, and Optimization, (eds. T. Q. S. Quek, E. Bastug, S. Chatzinotas, and T. X. Vu), Cambridge University Press, Cambridge, UK, 2019.
+
+
+                    </ul>-->
+
+                    <h2>Journal Publications:</h2> <!-- (For a complete list, please visit <span><a target ="_blank" href ="https://scholar.google.com/citations?user=On6mWPIAAAAJ">Google Scholar)-->
+                    </h2> 
+                    <ul id="custom-bullets">
+                        <li> Y. Ding, Z. Yang, Q.Pham, Y. Hu, Z. Zhang, M. Shikh-Bahaei “Distributed Machine Learning
+                            for UAV Swarms: Computing, Sensing, and Semantics”, <i>IEEE Internet of Things Journal</i>, to appear, 2023. (Available: <a target="_blank" href="https://arxiv.org/pdf/2301.00912.pdf">
+                            ArXiv</a>) 
+                        <li> Y. Hu, X. Wang, W. Saad, “Distributed and Distribution-Robust Meta Reinforcement Learning
+                            (D2-RMRL) for Data Pre-storing and Routing in Cube Satellite Networks”, <i>Journal of Selected
+                                Topics in Signal Processing</i>, vol. 17, no. 1, pp. 128-141, Jan. 2023. (Available: <a target="_blank" href="https://arxiv.org/pdf/2206.06568.pdf">
+                            ArXiv</a>) 
+                        <li> Y. Wang, Y. Hu, Z. Yang, W. Saad, K. K. Wong, and V. Friderikos, “Learning from Images:
+                            Proactive Caching with Parallel Convolutional Neural Networks”, <i>IEEE Transactions on Mobile
+                                Computing</i>, pp. 1-16, Sep, 2022. (Available: <a target="_blank" href="https://arxiv.org/abs/2108.06817">
+                            ArXiv</a>) 
+                        <li> Y. Cang, M. Chen, J. Zhao, Z. Yang, Y. Hu, C. Huang, and K. Wong, “Joint Deployment and
+                            Resource Management for VLC-enabled RISs-assisted UAV Networks”, <i>IEEE Transactions on
+                                Wireless Communications</i>, vol. 22, no. 2, pp. 746-760, Feb. 2023. (Available: <a target="_blank" href="">
+                            ArXiv</a>) 
+                        <li> Z, Yang; Y. Hu, Z. Zhang, W. Xu, “, "Reconfigurable Intelligent Surface Based Orbital Angular Momentum: Architecture, Opportunities, and Challenges", <i>IEEE Wireless Communications
+                            Magazine</i>, vol. 28, no. 6, pp. 132-137, Dec., 2021. (Available: <a target="_blank" href="https://www.researchgate.net/profile/Zhaoyang-Zhang-27/publication/358011290_Reconfigurable_Intelligent_Surface_Based_Orbital_Angular_Momentum_Architecture_Opportunities_and_Challenges/links/63775a051766b34c54363a1c/Reconfigurable-Intelligent-Surface-Based-Orbital-Angular-Momentum-Architecture-Opportunities-and-Challenges.pdf">
+                            Researchgate</a>) 
+                        <li> H. Tong, Z. Yang, S. Wang, Y. Hu, O. Semiari, W. Saad, and C.Yin, "Federated Learning for Audio Semantic Communication", <i>Frontiers in Communications and Networks</i>, 2021. (Available: <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/frcmn.2021.734402/full">
+                            Frontiers</a>) 
+                        <li> Y. Hu, M. Chen, W. Saad, H. V. Poor, and S. Cui, "Distributed Multi-agent Meta Learning for Trajectory Design in Wireless Drone Networks", <i>Journal on Selected Areas in Communications
+                            (JSAC) Special Issue on UAV Communications in 5G and Beyond Networks, </i>, vol. 39, no. 10, pp. 3177-3192, Oct., 2021.  (Available: <a target="_blank" href="https://arxiv.org/abs/2012.03158">
+                            ArXiv</a>) 
+                        <li> Y. Hu, M. Chen, and W. Saad,  "Joint Access and Backhaul Resource Management in Satellite-Drone Networks: A Competitive Market Approach", <i>IEEE Transactions on Wireless Communications</i>, vol. 19, no. 6, pp. 3908-3923, Jun., 2020. (Available: <a target="_blank" href="https://arxiv.org/abs/1908.11038">
+                            ArXiv</a>) 
+                        <li> Y. Hu, A. Sanjab, and W. Saad, "Dynamic Psychological Game Theory for Secure Internet of Battlefield Things (IoBT) Systems", <i> IEEE Internet of Things Journal</i>, vol. 6, no. 2, pp. (Available: <a target="_blank" href="https://arxiv.org/abs/1809.00989">
+                            ArXiv</a>) 
+    
+                    </ul>
+
+                    <h2>Conference Publications:</h2> <!-- (For a complete list, please visit <span><a target ="_blank" href ="https://scholar.google.com/citations?user=On6mWPIAAAAJ">Google Scholar)-->
+                    </h2> 
+                    <ul id="custom-bullets">
+                        <li> Z. Zhao, Z. Yang, Y. Hu, L. Lin, and Z. Zhang, "Semantic Information Extraction for Text Data with Probability Graph", in <i>Proc. EEE International Conference on Communications in
+                            China (ICCC Workshops),</i>, Tokyo, Japan, Jun. 2024. 
+                        <li> Y. Wang, Y. Hu, H. Du, T. Luo, and D. Niyato, “Distributed Reinforcement Learning for
+                            Covert Semantic Communications over Wireless Networks”, in <i>Proc. of the IEEE International
+                                Conference on Acoustics, Speech, and Signal Processing (ICASSP), </i> Island of Rhodes, Greek, Jun.
+                            2023.
+                        <li> H. Tong, Z. Yang, S. Wang, Y. Hu, W. Saad, and C. Yin, ”Federated Learning based Audio
+                            Semantic Communication over Wireless Networks”, in <i>Proc. of the IEEE Global Communications
+                            Conference (GLOBECOM), Communication QoS, Reliability and Modeling Symposium,</i> Madrid,
+                            Spain, Dec. 2021.
+                        <li> J. Fang, Z. Yang, N. Anjum, Y. Hu, H. Asgari and M. Shikh-Bahaei, “Secure Intelligent Reflect-
+                            ing Surface Assisted UAV Communication Networks”, in <i>Proc. of IEEE International Conference
+                            on Communications (ICC) Workshop,</i> Montreal, Canada, Jun. 2021.
+                        <li> L. Lu, Y. Hu, Y. Zhang, J. Jia, J, Nie, and M. Shikh-Bahaei, “Machine Learning for Predictive
+                            Deployment of UAVs with Rate Splitting Multiple Access”, in <i>Proc. of Global Communications
+                            Conference (GLOBECOM) Workshop,</i> Taipei, Taiwan, Dec. 2020.
+                        <li> Y. Hu, M. Chen, W. Saad, H. V. Poor, and S. Cui, “Meta-reinforcement Learning for Trajectory
+                            Design in Wireless UAV Networks”, in <i>Proc. of Global Communications Conference (GLOBE-
+                            COM),</i> Taipei, Taiwan, Dec. 2020.
+                        <li> Y. Hu, M. Chen, and W. Saad, “Competitive Market for Joint Access and Backhaul Resource
+                            Allocation in Satellite-Drone Networks”, in <i>Proc. of 10th IFIP International Conference on
+                            New Technologies, Mobility and Security (NTMS), Mobility & Wireless Networks Track, </i> Canary
+                            Islands, Spain, June 2019.
+                        <li> Y. Hu, N. Abuzainab, and W. Saad, “Dynamic Psychological Game for Adversarial Internet of
+                            Battlefield Things Systems”, in <i>Proc. of the IEEE International Conference on Communications
+                            (ICC), Communication and Information Systems Security Symposium,</i> Kansas City, MO, USA,
+                            May 2018.
+                        <li> Y. Hu, R. MacKenzie and M. Hao, “Expected Q-learning for Self-Organizing Resource Allocation
+                            in LTE-U with Downlink-Uplink Decoupling”, in <i>Proc. of European Wireless,</i> Dresden,
+                            Germany, 2017.
+                        <li> M. Chen, Y. Hu and C. Yin, “Tri-Sectoringand Power Allocation of Macro Base Stations in
+                            Heterogeneous Cellular Networkswith Matern Hard-Core Processes”, in <i>Proc. of IEEE Vehicular
+                            Technology Conference (VTC), </i> Nanjing, China, May 2016.
+
+                    </ul>
+                      </div>
+                </div>
+            </div>
+        </section>
+ 
+
+    </body>
+    
+    </html>
+    

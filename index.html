@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+       <!-- <title>[ Mingzhe Chen @ University of Miami ]</title>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+   
+
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                 <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button> -->
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="#"><img border="0" width="100" src="logo.png"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="index.html">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="publication.html">Publications</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="teaching.html">Teaching</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="professional.html">Professional Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="group.html">Group Members</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <br>
+        <br>
+        <br>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="left" class="col-md-3">
+                    <a target="_blank" href="Ye.jpeg">
+                        <img id="mobile-img" src="Ye.jpeg" width="200" border="0" alt=""></a>
+                </div>
+
+                <div align="left" class="col-md-9 col-sm-8">
+                    <div class="row">
+                        <div align="left" class="col-sm-12">
+                            <h3>Dr. Ye Hu
+                             <!--    </h3><h5>Ph.D, Univeristy of Miami</h5> -->
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div align="left" class="col-sm-6">
+                            <h4>Assistant Professor</h4>
+                            <h4>Industrial and Systems Department</h4>
+                            <h4>University of Miami, Coral Gables, FL, USA</h4>
+                        </div>
+                           <div align="left" class="col-sm-6">
+                            <h4>Phone: 540-251-9897 </h4>
+                            <h4>Email: <a href="mailto:yehu@miami.edu">yehu@miami.edu</a></h4>
+                            <h4>Office: 1251 Memorial Drive, McArthur Engineering Building MEB285                           </h4>
+                            <h4><a target="_blank" href="https://scholar.google.com/citations?user=TZ_qFpAAAAAJ&hl=en">Google Scholar Profile</a></h4>
+                            <!--<h4><a target="_blank" href="http://linkedin.com/in/mingzhe-chen-47a420b6">Linkedin Profile</a></h4>-->
+                        </div>
+                    </div>
+                </div>  
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                 <!--<b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS</button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS</button>
+                </b> -->
+                
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section id="intro" style="margin-top:40px">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+                  <!--  <i class="noshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-1-content&#39;).toggle();">Introduction <span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </i> -->
+
+                    <div style="" id="tab-1-content">
+                    <hr class="star-primary">
+
+                    <p class="lead">Dr. Ye Hu is currently an Assistant Professor in the Department of Industrial and Systems Engineering at University of Miami. Dr. Hu received her doctorate degree in <a target="_blank" href="https://ece.vt.edu/">Bradley Department of Electrical & Computer Engineering</a> at <a target="_blank" href="https://www.vt.edu/">Virginia Tech</a>, Blacksburg, VA, USA, in 2021. During her Ph. D. study, she worked in the NetSciWiS research group at <a target="_blank" href="https://wireless.vt.edu/">Wireless@Virginia Tech</a>, under the supervision of Prof. <a target="_blank" href="https://www.netsciwis.com/">Walid Saad</a>.  She was a Postdoctoral Research Scientist in the Department of Electrical Engineering at Columbia University, and then in the Department of Electrical and Computer Engineering at the North Carolina State University.  
+                        
+                    <p>
+                    Research Interest:
+                    <ul>
+                        <li>Distributed artificial intelligence (AI) and applications,</li>
+                        <li> Multi-agent reinforcement learning for autonomous control,</li>
+                        <li> Distributed/Federated learning in wireless network,</li>
+                        <li> Digital inclusion with integrated space air ground networks,</li>
+                        <li> Cyber physical human systems.</li>
+                        <li> Semantic communications.</li>
+                        <li> Joint communication and sensing.</li>
+
+                        
+
+                        
+
+
+
+                </ul>
+                 
+                     
+               
+                    </p></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="hiring" style="margin-top:40px">
+                <div class="container">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+    
+                     <!--   <i class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-1-content&#39;).toggle();">Introduction <span class="glyphicon glyphicon-chevron-right"></span></button>
+                        </i> -->
+    
+                        <div  class="lead" style="" id="tab-1-content">
+                        <hr class="star-primary">
+                        <h2>Openings:</h2> 
+        
+                        <p>
+                            Dr. Hu is aways looking for self-motivated, dedicated Ph.D.  students. If you are interested in exploring research on distributed machine learning, autonomous control, drone networks, cube satellite communication, and cybersecurity with me, please send your <b> CVs, transcripts, representative publications, GRE and TOEFL scores</b> to Dr. Ye Hu's email (yehu AT miami DOT edu), please also specify your key research interests and academic credentials.
+    
+                        </p></div>
+    
+                    </div>
+                </div>
+            </section>
+
+        
+            <section  name="courses" id="courses" style="margin-top:40px">
+                <div class="container">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                     <!--   <b class="noshow" style="display:none;" id="tab-5">
+                            <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b> -->
+                        
+                        <div class="lead" id="tab-courses-content">
+                            <hr class="star-primary">
+                            <h2>Recent News </h2>
+                            <div class="news-list">
+                                <!--<div class="news-item">
+                                    <div class="news-text">
+                                      <div class="news-title">  <span class="label label-default"></span> <span class="label label-default">Call for Paper</span> IEEE Internet of Things Journal Special Issue on Edge Learning in B5G IoT Systems (Deadline: April 1st, 2024) [<a target="_blank" href="https://ieee-iotj.org/wp-content/uploads/2023/07/Edge_Learning.pdf">CFP</a>]</div>
+                                      </div>
+                                </div>-->
+
+                            <div class="news-item">
+                                <div class="news-text">
+                                    <div class="news-title news-entry"> <span class="label label-default">Jul. 2023</span> Our paper titled "Distributed Machine Learning for UAV Swarms:
+                                        Computing, Sensing, and Semantics" is accepted by the IEEE Internet of Things Journal. 
+                                    </div>
+                                <div class="news-title news-entry"> <span class="label label-default">Aug. 2023</span> Dr. Hu joined the Department of Industrial and Systems Engineering Department at University of Miami.
+                                </div>
+                                <div class="news-title news-entry"> <span class="label label-default">Jul. 2023</span> Dr. Hu was appointed as an Associate Editor for IEEE Wireless Communications Letters.
+                                </div>
+                                </div>
+                            </div>
+
+                            <!--<div class="news-list">
+                                <div class="news-item">
+                                  <div class="news-text">
+                                    <div class="news-title"><a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="news.html">More archived news</a> 
+                                    </div>
+                                  </div>
+                            </div>-->
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Softwared Section -->
+        <section id="software" style="margin-top:40px">
+                <div class="container">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+            
+                        <!-- <i class="noshow" style="display:none;" id="tab-3">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$(&#39;#tab-3-content&#39;).toggle();">Courses  <span class="glyphicon glyphicon-chevron-right"></span></button>
+                        </i> -->
+                        <div class="lead" style="" id="tab-3-content">
+                        <hr class="star-primary">
+                        <!--<h2>Honors and Awards </h2>
+                        <ul>
+                            <li> IEEE Marconi Prize Paper Award in Wireless Communications, 2023 </li>
+                            <li> IEEE Communications Society Katherine Johnson Young Author Best Paper Award, 2023</li>                                     
+                            <li>International Conference on Computer Communications and Networks (ICCCN) Best Paper Award, 2023</li>    
+                            <li> IEEE Communications Society Fred W. Ellersick Prize Award, 2022</li>
+                            <li> IEEE Communications Society Young Author Best Paper Award, 2021</li>
+                            <li>IEEE Wireless Communications and Networking Conference Best Paper Award, 2021</li>
+                            <li>IEEE Global Communications Conference Best Paper Award, 2020</li>
+                            <li>IEEE International Conference on Communications Best Paper Award, 2020</li>
+                            <li>Exemplary Reviewer of IEEE Transactions on Wireless Communications, 2018</li>
+                            <li>Exemplary Reviewer of IEEE Transactions on Communications, 2018 - 2020</li>
+                            <li> Travel grant for IEEE GLOBECOM Workshop on 5G RAN Design, 2016</li>
+                        </ul>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+   
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2023 | Dr. Ye Hu. | UM 
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>
